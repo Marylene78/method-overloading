@@ -1,0 +1,25 @@
+public class Main {
+    static int add(int a, int b) {
+        return a + b;
+    }
+   static int add(int a, int b, int c) {
+        return a + b + c;
+    }
+    static double add(double a, double b) {
+        return a + b;
+    }
+   static double addIntDouble(int a, double b) {
+        return a + b;
+    }
+
+public static void main(String[] args) {
+    int v= add(4,5);
+    int b= add(4,5,1);
+    double n= add(23.3, 10.0);
+    double m= addIntDouble(2, 10.0);
+    System.out.println(v);
+        System.out.println(b);
+            System.out.println(n);
+                System.out.println(m);
+}
+}
